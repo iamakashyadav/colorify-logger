@@ -1,0 +1,31 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "A library to clorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamakashyadav/colorify-logger.git"
+  },
+  "keywords": [
+    "Console log colors",
+    "colorify logs"
+  ],
+  "author": "Akash Yadav <akash.y@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamakashyadav/colorify-logger/issues"
+  },
+  "homepage": "https://github.com/iamakashyadav/colorify-logger#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
